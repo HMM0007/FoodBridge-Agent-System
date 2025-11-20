@@ -1,0 +1,6 @@
+google-generativeai
+google-cloud-aiplatform
+vertexai
+numpy
+pandas
+matplotlib
