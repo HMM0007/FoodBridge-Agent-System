@@ -12,13 +12,13 @@ This repository contains the full code, notebook, and project documentation crea
 ## 🌍 Why FoodBridge Matters
 
 <p align="center">
-  <img src="assets/Fight Food Waste-Problem Statement.jpg" width="420" style="border-radius: 12px;">
+  <img src="assets/fight_food_waste.jpg" width="420" style="border-radius: 12px;">
   <br>
   <em>Food waste is a global crisis — millions of meals are discarded every single day.</em>
 </p>
 
 <p align="center">
-  <img src="assets/The Soul Knows Its Hunger-Problem Statement.jpg" width="420" style="border-radius: 12px;">
+  <img src="assets/hungry_children.jpg" width="420" style="border-radius: 12px;">
   <br>
   <em>Meanwhile, countless families struggle daily with food insecurity and hunger.</em>
 </p>
