@@ -18,7 +18,7 @@ This repository contains the full code, notebook, and project documentation crea
 </p>
 
 <p align="center">
-  <img src="assets/The Sou Knows Its Hunger-Problem Statement.jpg" width="420" style="border-radius: 12px;">
+  <img src="assets/The Soul Knows Its Hunger-Problem Statement.jpg" width="420" style="border-radius: 12px;">
   <br>
   <em>Meanwhile, countless families struggle daily with food insecurity and hunger.</em>
 </p>
