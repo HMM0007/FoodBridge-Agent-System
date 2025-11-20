@@ -1,100 +1,159 @@
 # 🌍 FoodBridge Agent System  
 ### An AI-Powered Surplus Food Redistribution Agent | Kaggle x Google Capstone (Agents for Good)
 
-FoodBridge is an AI-based agent system built using Google’s Agent Development Kit (ADK).  
-Its goal is to reduce urban food waste by connecting surplus food providers with NGOs and community food programs in an automated, intelligent, and transparent way.
+FoodBridge is an AI-based multi-agent system built using **Google’s Agent Development Kit (ADK)**.  
+It tackles one of society’s most critical challenges:
 
-This repository contains the full code, notebook, and project documentation created for the **Kaggle x Google Developers: Capstone Project – Agents For Good Track**.
+> **Millions of meals are wasted daily while millions of people go hungry.**
+
+FoodBridge automates:
+- surplus food intake  
+- NGO matching  
+- basic logistics  
+- impact estimation  
+
+This repository contains the full code, diagrams, notebook, and documentation created for the **Kaggle x Google Developers: ADK Capstone – Agents for Good Track**.
 
 ---
-
 
 ## 🌍 Why FoodBridge Matters
 
 <p align="center">
   <img src="assets/fight_food_waste.jpg" width="420" style="border-radius: 12px;">
   <br>
-  <em>Food waste is a global crisis — millions of meals are discarded every single day.</em>
+  <em>Food waste is a global crisis — millions of meals are discarded every day.</em>
 </p>
 
 <p align="center">
   <img src="assets/hungry_children.jpg" width="420" style="border-radius: 12px;">
   <br>
-  <em>Meanwhile, countless families struggle daily with food insecurity and hunger.</em>
+  <em>Meanwhile, countless families struggle daily with hunger and food insecurity.</em>
 </p>
 
-FoodBridge aims to bridge this divide by intelligently redirecting surplus food  
+FoodBridge bridges this divide by intelligently redirecting surplus food  
 to NGOs and community organizations that need it the most.
-
-
 
 ---
 
-# 🚀 Project Objective
+# 🎯 Project Objective
 
-Every day, restaurants and kitchens generate surplus food that often goes to waste.  
-At the same time, NGOs struggle to find enough food for people in need.
+FoodBridge is designed to address:
 
-FoodBridge acts as a bridge between the two by:
+### ✔ Urban Food Waste  
+### ✔ Uneven Resource Distribution  
+### ✔ Slow NGO Coordination  
+### ✔ Lack of Technological Tools in Relief Systems  
 
-- Detecting surplus food reports  
-- Matching them with appropriate NGOs  
-- Suggesting basic logistics  
-- Estimating social impact  
-- Maintaining traceable logs  
+By automating:
+- 🏷 Surplus food intake & validation  
+- 🎯 NGO matching  
+- 🚚 Pickup & ETA suggestions  
+- 📊 Impact estimation  
+- 🧾 Structured reporting  
 
-The project demonstrates how AI agents can help solve a real social problem.
+FoodBridge proves how **AI agents can solve real-world societal problems**.
 
 ---
 
 # 🧠 System Architecture Overview
 
-FoodBridge is built as a modular, multi-agent system:
+FoodBridge uses modular, interpretable agents:
 
 ### **1. Surplus Intake Agent**
-Extracts food details such as type, quantity, and pickup location.
+Extracts & validates food type and quantity.
 
 ### **2. NGO Matching Agent**
-Suggests suitable NGOs based on:
-- food type  
+Finds the best NGO match based on:
+- food needs  
+- capacity  
 - quantity  
-- availability  
-- simple location rules  
 
-### **3. Logistics Agent (Basic Version)**
-Provides a simple delivery or pickup suggestion and ETA estimate.
+### **3. Logistics Agent**
+Provides pickup suggestions & ETA.
 
 ### **4. Impact Estimation Agent**
-Calculates potential meals saved and waste prevented.
+Computes meals saved & waste reduced.
 
 ### **5. Orchestrator**
-Coordinating agent that executes all the above steps in order and returns structured results.
+Controls the full workflow & returns structured results.
 
-This makes the pipeline clear, interpretable, and easily extendable.
+---
+
+## 🏗 Architecture Diagram
+
+<p align="center">
+  <img src="assets/architecture_diagram.png" width="720">
+  <br>
+  <em>High-level architecture of the FoodBridge Agent System.</em>
+</p>
+
+---
+
+## 🔁 Sequence Diagram
+
+<p align="center">
+  <img src="assets/sequence_diagram.png" width="720">
+  <br>
+  <em>Google-style sequence diagram representing the agent workflow.</em>
+</p>
+
+---
+
+## 🔧 Data Flow Diagram
+
+<p align="center">
+  <img src="assets/data_flow_diagram.png" width="720">
+  <br>
+  <em>Data movement across agents — from donor to NGO.</em>
+</p>
+
+---
+
+## 🧩 Swimlane Diagram
+
+<p align="center">
+  <img src="assets/swimlane_diagram.png" width="720">
+  <br>
+  <em>Shows which agent performs which stage of the pipeline.</em>
+</p>
 
 ---
 
 # 🔧 Technologies Used
 
-- **Python**  
-- **Google Agent Development Kit (ADK)**  
-- **Kaggle Notebook environment**  
-- **JSON event workflows**  
-- **Rule-based reasoning + LLM guidance**  
+- 🐍 Python  
+- 🤖 Google Agent Development Kit (ADK)  
+- 📄 JSON event formatting  
+- 🔁 Rule-based + LLM-assisted logic  
+- 📊 Matplotlib for evaluation  
+- 🧪 Kaggle Notebook runtime  
 
 ---
 
 # 📁 Repository Structure
+
 FoodBridge-Agent-System/
-│── README.md
-│── FoodBridge_Notebook.ipynb
-│── src/
-│     ├── donor_agent.py
-│     ├── ngo_matching_agent.py
-│     ├── logistics_agent.py
-│     └── impact_agent.py
-│── assets/
-      └── architecture.png
+│
+├── README.md
+├── LICENSE
+├── requirements.txt
+│
+├── notebook/
+│   └── foodbridge.ipynb
+│
+├── src/
+│   ├── agents.py
+│   ├── orchestrator.py
+│   └── utils.py
+│
+└── assets/
+    ├── architecture_diagram.png
+    ├── sequence_diagram.png
+    ├── swimlane_diagram.png
+    ├── data_flow_diagram.png
+    ├── fight_food_waste.jpg
+    ├── hungry_children.jpg
+
 
 
 
