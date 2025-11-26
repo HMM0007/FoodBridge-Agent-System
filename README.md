@@ -223,6 +223,11 @@ Special thanks to:
 
 ---
 
+## 🎥 Project Demo Video
+Watch the full 2-minute demo on YouTube:  
+👉[![Watch the Video](assets/youtube_thumbnail.png)](https://youtu.be/QmXWeBf-x_4?si=JyYBN4W4-sHAJ_-0)
+
+---
 # 📜 License
 
 This project is open for educational and research purposes.  
